@@ -161,17 +161,12 @@ learning late = 0.001, shape[256,256], shape[128,128]을 섞은 총 8개의 Hidd
 <table>  
   <tr>
     <th colspan="2">
-      Linear Regression vs Nerual Network
+      Convolutional Neural Network
     </th>
   </tr>  
   <tr>
-    <td align="center">Linear Regression</td>
-    <td align="center">Nerual Network</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://user-images.githubusercontent.com/19161231/51309349-82ddec80-1a87-11e9-9b13-578b16893c11.png"></td>   
-    <td align="center"><img src="https://user-images.githubusercontent.com/19161231/51309001-cc7a0780-1a86-11e9-8907-c6bd87b75382.png"></td>
-  </tr>
+    <td align="center"><img src="https://user-images.githubusercontent.com/55169156/121474174-aad69d80-c9fe-11eb-8df5-61115c6e2903.png"></td>   
+
 </table>
 </p>
 
