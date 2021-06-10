@@ -1,7 +1,6 @@
-# Speaker-Recognition-using-NN(화자 인식)
-Speaker Recognition using Neural Network &amp; Linear Regression
+# Speaker-Recognition(화자 인식)
 
-독립적인 인물들의 음성데이터를 이용하여 말하는 사람이 누구인지 파악 할 수 있다.
+독립적인 인물들의 음성데이터를 사전에 학습하여 말하는 사람이 누구인지 파악 할 수 있다.
 
 ## 화자 인식의 종류
 
@@ -25,7 +24,7 @@ Speaker Recognition using Neural Network &amp; Linear Regression
 </p>
 `화자식별`은 미리 N명의 화자 모델(Voiceprint)을 등록한 시스템을 이용하여 화자 식별을 한다(그림3). 특정 사람이 시스템에 음성을 입력하면, 등록된 화자 모델을 검색해 음성과 가장 일치하는 화자를 찾게 된다. 
 
-본 프로젝트에서는 화자 식별을 이용한 화자인식을 Neural Network를 이용하여 구현하였다.
+현재 프로젝트에서는 화자 식별을 이용한 화자인식을 Convolutional Neural Network를 이용하여 구현하였다.
 
 
 
