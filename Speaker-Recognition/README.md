@@ -25,7 +25,7 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/19161231/47408093-e0201580-d798-11e8-9fff-e671183c5c5a.png">
 </p>
-<p align="center">< **그림 2 : 화자 식별 개요도** ></p>   
+<p align="center">**< **그림 2 : 화자 식별 개요도** >**</p>   
 `화자식별`은 미리 N명의 화자 모델(Voiceprint)을 등록한 시스템을 이용하여 화자 식별을 한다(그림2).   
 특정 사람이 시스템에 음성을 입력하면, 등록된 화자 모델을 검색해 음성과 가장 일치하는 화자를 찾게 된다.   
 현재 프로젝트에서는 화자 식별을 이용한 화자인식을 Convolutional Neural Network를 이용하여 구현하였다.      
