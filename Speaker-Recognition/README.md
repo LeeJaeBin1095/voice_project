@@ -137,23 +137,25 @@ import pandas as pd
 
 
 ## Learning process
+<p>
 <table>  
   <tr>
     <th colspan="2">
-      학습 방법의 차이
+      Learning process
     </th>
   </tr>  
   <tr>
-    <td align="center">사전 학습 후 새로운 데이터를 추가해서 재학습</td>
-    <td align="center">새로운 데이터를 포함해서 학습</td>
+    <td align="center"> 학습방법 1 </td>
+    <td align="center"> 학습방법 2 </td>
   </tr>
   <tr>
     <td align="center"><img src="https://user-images.githubusercontent.com/55169156/121474787-8af3a980-c9ff-11eb-97ae-7e2827a8df07.png"></td>
     <td align="center"><img src="https://user-images.githubusercontent.com/55169156/121474751-78797000-c9ff-11eb-93b7-642b8fad0013.png"></td>    
   </tr>
 </table>
-
-learning late = 0.001, shape[256,256], shape[128,128]을 섞은 총 8개의 Hidden layer를 이용한 학습으로 5개의 클래스에서 최종적으로 97%의 정답률을 보여주었다.
+</p>
+학습방법 1은 사전에 5개의 class에 대해서 학습을 진행한 다음 새로운 데이터를 포함해서 총 11개의 class에 대해서 재학습을 진행하는 방법이고   
+학습방법 2는 새로운 데이터를 포함해서 총 11개의 class에 대해서 학습을 진행하는 방법이다.   
 
 ## Result
 
@@ -161,12 +163,21 @@ learning late = 0.001, shape[256,256], shape[128,128]을 섞은 총 8개의 Hidd
 <table>  
   <tr>
     <th colspan="2">
-      Convolutional Neural Network
+      Result
     </th>
   </tr>  
   <tr>
-    <td align="center"><img src="https://user-images.githubusercontent.com/55169156/121474174-aad69d80-c9fe-11eb-8df5-61115c6e2903.png"></td>   
-
+    <td align="center"> 학습방법 1 </td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://user-images.githubusercontent.com/55169156/121475300-30a71880-ca00-11eb-980c-68c595b7c58f.png"></td>    
+  </tr>
+  <tr>
+    <td align="center"> 학습방법 2 </td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://user-images.githubusercontent.com/55169156/121475341-3dc40780-ca00-11eb-805c-20486fb2675b.png"></td>    
+  </tr>
 </table>
 </p>
 
@@ -176,11 +187,3 @@ learning late = 0.001, shape[256,256], shape[128,128]을 섞은 총 8개의 Hidd
 </p>
 
 
-
-</br> 
-<a href="mailto:dydtjr1994@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/E--mail-Yongseok%20choi-yellow.svg">
-</a>
-<a href="https://blog.naver.com/cys_star" target="_blank">
-  <img src="https://img.shields.io/badge/Blog-cys__star%27s%20Blog-blue.svg">
-</a>
