@@ -24,9 +24,8 @@
   <img src="https://user-images.githubusercontent.com/19161231/47408093-e0201580-d798-11e8-9fff-e671183c5c5a.png">
 </p>
 <p align="center">< 그림 3 : 화자 식별 개요도 ></p>   
-`화자식별`은 미리 N명의 화자 모델(Voiceprint)을 등록한 시스템을 이용하여 화자 식별을 한다(그림3). 특정 사람이 시스템에 음성을 입력하면, 등록된 화자 모델을 검색해 음성과 가장 일치하는 화자를 찾게 된다. 
-
-현재 프로젝트에서는 화자 식별을 이용한 화자인식을 Convolutional Neural Network를 이용하여 구현하였다.
+`화자식별`은 미리 N명의 화자 모델(Voiceprint)을 등록한 시스템을 이용하여 화자 식별을 한다(그림3). 특정 사람이 시스템에 음성을 입력하면, 등록된 화자 모델을 검색해 음성과 가장 일치하는 화자를 찾게 된다.   
+현재 프로젝트에서는 화자 식별을 이용한 화자인식을 Convolutional Neural Network를 이용하여 구현하였다.   
 
 
 
@@ -38,7 +37,8 @@
 
 `MFCC`는 Mel Frequency Cepstrum Coefficient의 약자로서 음성인식 분야에서 널리 사용되는 알고리즘이다. 
 MFCC는 소리의 특징을 추출하는 알고리즘으로서 입력받은 소리를 일반적으로 20ms-40ms정도의 작은 프레임으로 쪼개는 과정을 거치고 이러한 프레임들의 스펙트럼을 분석하여 특징을 추출하는 기법이다. MFCC를 이용한 Features 추출은 음정이 변해도 어느 정도 일정하다는 장점이 있기 때문에 음성인식에 효과적인 알고리즘이다. 아래의 그림은 MFCC의 전체적인  과정이다.
-사람마다 개개인의 고유한 DNA 및 지문을 가지고 있듯이, 각 사람마다 목소리의 고유 주파수, 진폭 등이 다르다는 특성(MFCC)을 이용하여 개인의 신분을 확인 할 수 있는 화자 인식이 가능하다.
+사람마다 개개인의 고유한 DNA 및 지문을 가지고 있듯이, 각 사람마다 목소리의 고유 주파수, 진폭 등이 다르다는 특성(MFCC)을 이용하여 개인의 신분을 확인 할 수 있는 화자 인식이 가능하다.   
+현재 프로젝트에서는 음성 전처리 과정을 MFCC를 이용해서 진행하고 있다.    
 
 <p align="center">  
   <img src="https://user-images.githubusercontent.com/19161231/47408769-98e75400-d79b-11e8-9599-93cc7bdb9b67.png" width="70%">
@@ -58,28 +58,58 @@ MFCC는 소리의 특징을 추출하는 알고리즘으로서 입력받은 소�
       <th> Number of data </th>
     </tr>
     <tr>
-      <td align="center">0</td>
+      <td align="center">00</td>
       <td align="center">유인나</td>
       <td align="center">20</td>
     </tr>
     <tr>
-      <td align="center">1</td>
+      <td align="center">01</td>
       <td align="center">배철수</td>
       <td align="center">20</td>
     </tr>
     <tr>
-      <td align="center">2</td>
+      <td align="center">02</td>
       <td align="center">이재은</td>
       <td align="center">20</td>
     </tr>
     <tr>
-      <td align="center">3</td>
+      <td align="center">03</td>
       <td align="center">최일구</td>
       <td align="center">20</td>
     </tr>
     <tr>
-      <td align="center">4</td>
+      <td align="center">04</td>
       <td align="center">문재인</td>
+      <td align="center">20</td>
+    </tr>
+    <tr>
+      <td align="center">05</td>
+      <td align="center">김용준</td>
+      <td align="center">20</td>
+    </tr>
+    <tr>
+      <td align="center">06</td>
+      <td align="center">이재빈</td>
+      <td align="center">20</td>
+    </tr>
+    <tr>
+      <td align="center">07</td>
+      <td align="center">강은기</td>
+      <td align="center">20</td>
+    </tr>
+    <tr>
+      <td align="center">08</td>
+      <td align="center">이명박</td>
+      <td align="center">20</td>
+    </tr>
+    <tr>
+      <td align="center">09</td>
+      <td align="center">노무현</td>
+      <td align="center">20</td>
+    </tr>
+    <tr>
+      <td align="center">10</td>
+      <td align="center">박근혜</td>
       <td align="center">20</td>
     </tr>
   </table>
