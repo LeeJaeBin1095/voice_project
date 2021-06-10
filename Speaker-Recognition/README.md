@@ -124,11 +124,13 @@ MFCC를 이용한 Features 추출은 음정이 변해도 어느 정도 일정하
 ```python
 import pyaudio                     # Record audio from mic
 import wave                        # Read/Write .wav
+import scipy                       # Use signal
 import os                          # Access folder
 import librosa                     # Calc mfcc
 import librosa.display             # Display mfcc with matplotlib
 import matplotlib.pyplot as plt    # Draw waveform
-import tensorflow as tf            # Use tf.nn
+import tensorflow as tf            # Use tf
+import keras                       # Use keras
 import numpy as np
 import pandas as pd
 ```
