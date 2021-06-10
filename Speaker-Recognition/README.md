@@ -140,16 +140,16 @@ import pandas as pd
 <table>  
   <tr>
     <th colspan="2">
-      Linear Regression vs Nerual Network
+      학습 방법의 차이
     </th>
   </tr>  
   <tr>
-    <td align="center">Linear Regression</td>
-    <td align="center">Nerual Network</td>
+    <td align="center">사전 학습 후 새로운 데이터를 추가해서 재학습</td>
+    <td align="center">새로운 데이터를 포함해서 학습</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://user-images.githubusercontent.com/19161231/51309726-6a220680-1a88-11e9-85f3-8844075b3e50.png"></td>
-    <td align="center"><img src="https://user-images.githubusercontent.com/19161231/51309143-1c58ce80-1a87-11e9-9e6b-c076183d5310.png"></td>    
+    <td align="center"><img src="https://user-images.githubusercontent.com/55169156/121474787-8af3a980-c9ff-11eb-97ae-7e2827a8df07.png"></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/55169156/121474751-78797000-c9ff-11eb-93b7-642b8fad0013.png"></td>    
   </tr>
 </table>
 
